@@ -1,0 +1,9 @@
+venv/
+
+__pycache__/
+
+src/input_images/
+
+# src/output_images/
+
+src/rough/

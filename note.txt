@@ -1,0 +1,15 @@
+Note: Priority
+1. remove output_images folder from run command, have it hardcoded in the code.
+
+
+pl - pose left
+pr - pose right
+fa - facial
+rb - 
+fa_a - facial
+rc -
+ra - 
+hl - half left
+hr - half right
+ql - quarter
+fb - facial
