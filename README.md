@@ -3,7 +3,7 @@
 
 ## How to run the code
 
-1. Create virtual environment to be use 
+1. Create virtual environment to be used
 ```
 python3 -m venv venv
 ```
@@ -11,7 +11,7 @@ python3 -m venv venv
 ```
 source venv/bin/activate
 ```
-3. Run the model locally
+3. Run the model locally. NOTE: The first argument is the python file containing all functions to be uses, the second argument is the training dataset, and the third argument is the testing image
 ```
 python src/main.py "src/rough/grayscale/" "src/00002qr010_940928.tif"
 ```
@@ -24,7 +24,5 @@ docker build -t patrick:0001 .
 docker run patrick:0001
 ```
 6. Kill container
-```
-
 ```
 # EBGM
